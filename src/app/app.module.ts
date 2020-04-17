@@ -5,10 +5,12 @@ import { HttpClientModule } from '@angular/common/http'
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { ClusterComponent } from './components/cluster/cluster.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ClusterComponent
   ],
   imports: [
     BrowserModule,
